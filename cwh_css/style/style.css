@@ -1,0 +1,58 @@
+.left{
+  display: inline-block;
+
+  position: absolute;
+  left:32px;
+  top:20px;
+}
+.mid{
+  display: block;
+  width:35%;
+  margin: 15px auto;
+
+
+
+}
+.right{
+
+position: absolute;
+right:32px;
+top:20px;
+
+}
+
+.navbar{
+  display: inline-block;
+  background-color: orange;
+
+  border-radius: 30px;
+
+}
+
+
+.navbar li{
+  display: inline-block;
+  font-size: 20px;
+  margin:auto;
+  padding: 15px 13px;
+
+}
+
+.navbar li a{
+  color: white;
+  text-decoration: none;
+  padding: 15px 13px;
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: red;
+
+}
+
+.left img{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
